@@ -13,12 +13,13 @@ body {
 .header {
   height: 5rem;
   width: 100%;
-  background: yellow;
+  background: white;
   position: absolute;
   z-index: 99;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.077) 1px 1px 1px 1px;
 }
 .headBox1 {
   display: flex;
@@ -74,4 +75,48 @@ body {
 .menuBtn:hover {
   cursor: pointer;
   background: #006db8;
+}
+.banner {
+  background: rgb(241, 241, 241);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.bannerBox1 {
+  padding-top: 50px;
+  width: 45%;
+}
+.bannerBox1 p {
+  padding-bottom: 20px;
+}
+
+.bannerBox1 h1 {
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.bannerBox1 h3 {
+  font-weight: 500;
+  padding-bottom: 35px;
+}
+.bannerBtn {
+  padding: 15px;
+  width: 10rem;
+  background: #0187e0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.bannerBtn:hover {
+  cursor: pointer;
+  background: #006db8;
+}
+
+.bannerBox2 img {
+  height: 33rem;
+  padding-top: 70px;
 }
