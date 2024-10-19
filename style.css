@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 5rem;
+  width: 100%;
+  background: yellow;
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headBox1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headBox1 img {
+  height: 4rem;
+  padding-left: 20px;
+}
+.menuBar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.menuBar li {
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+.menuBar li:hover {
+  cursor: pointer;
+}
+.menuBar li i {
+  padding-left: 5px;
+  font-size: 12px;
+}
+.headBox2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 20px;
+}
+.headBox2 p {
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+.menuBtn {
+  padding: 10px;
+  background: #0187e0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.menuBtn:hover {
+  cursor: pointer;
+  background: #006db8;
+}
