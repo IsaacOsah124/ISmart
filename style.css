@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.077) 1px 1px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.162) 1px 1px 1px 1px;
 }
 .headBox1 {
   display: flex;
@@ -193,3 +193,21 @@ body {
 .appInfo ul li {
   padding-bottom: 20px;
 }
+
+/*End of .appBox*/
+.partners {
+  width: 100%;
+  height: 30rem;
+}
+.partners h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 70px;
+}
+.partnerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+/*End of .appBox*/
