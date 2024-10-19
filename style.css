@@ -14,7 +14,7 @@ body {
   height: 5rem;
   width: 100%;
   background: white;
-  position: absolute;
+  position: fixed;
   z-index: 99;
   display: flex;
   justify-content: space-between;
@@ -120,3 +120,34 @@ body {
   height: 33rem;
   padding-top: 70px;
 }
+/*Start of ProductInfo*/
+.ProductInfo {
+  width: 100%;
+  height: 35rem;
+}
+.ProductInfo h1 {
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-bottom: 80px;
+}
+
+.infoBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.infoBox1 {
+  width: 19rem;
+  height: 14rem;
+  background: white;
+  border-top: 2px solid rgb(0, 0, 0);
+}
+.infoBox1 h3 {
+  font-size: 23px;
+  color: #006db8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*End of ProductInfo*/
