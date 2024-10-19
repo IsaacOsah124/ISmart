@@ -211,3 +211,43 @@ body {
   gap: 1rem;
 }
 /*End of .appBox*/
+
+/*Start of Contact*/
+.contact {
+  height: 30rem;
+  width: 100%;
+  background: #0187e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact h1 {
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  color: white;
+}
+
+.contact p {
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+.contactBox {
+  margin-left: 30px;
+  padding: 15px;
+  width: 10rem;
+  background: white;
+  color: #0187e0;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact img {
+  height: 30rem;
+}
+/*End of Contact*/
