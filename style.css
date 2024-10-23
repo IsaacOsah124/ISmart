@@ -251,3 +251,62 @@ body {
   height: 30rem;
 }
 /*End of Contact*/
+
+/*Start of footer*/
+.footer {
+  height: 27rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.footBox1 {
+  width: 40%;
+}
+.footBox1 h2 {
+  padding-bottom: 30px;
+}
+.footBox2 h2 {
+  padding-bottom: 30px;
+}
+
+.footBox2 ul {
+  list-style: none;
+}
+.footBox2 ul li {
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.footBox3 {
+  padding-top: 70px;
+}
+
+.loc1 h2 {
+  padding-bottom: 10px;
+}
+.loc1 p {
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.loc1 p:hover {
+  color: #006db8;
+}
+.footBox4 {
+  padding-top: -30px;
+}
+.footerBottom {
+  background: #0187e0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.5rem;
+}
+.footerBottom p {
+  padding-left: 50px;
+  margin-right: 50px;
+  font-size: 13px;
+}
+/*End of footer*/
